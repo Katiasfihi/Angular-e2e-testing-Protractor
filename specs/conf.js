@@ -4,6 +4,8 @@ exports.config = {
   seleniumServerJar: 'D:/Eclipse progs/jars/selenium-server-standalone-3.11.0.jar',
   specs: ['D:ProtractorJSFilesLocation	est.js'],
   capabilities: {
-	browserName: 'chrome'
+	browserName: 'chrome',
+  seleniumPort: 4444,
+  seleniumArgs: [-help]
   }
-}
+} 
